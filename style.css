@@ -7,6 +7,7 @@
   --background: #101418;
   --text: #e7edf3;
   --muted-text: #b3bec9;
+  --heading: #72d6c9;
   --link: #8ab4f8;
   --link-hover: #b8d2ff;
   --border: #39424c;
@@ -90,6 +91,7 @@ section {
 }
 
 h2 {
+  color: var(--heading);
   margin: 0 0 12px;
   padding-bottom: 4px;
   border-bottom: 1px solid var(--border);
